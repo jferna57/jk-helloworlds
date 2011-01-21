@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <myfile id="4" name="test4" path="/4" length="4" last_change="2001-01-01"/>
+  <myfile id="5" name="test5" path="/5" length="5" last_change="2005-01-01"/>
+</dataset>
