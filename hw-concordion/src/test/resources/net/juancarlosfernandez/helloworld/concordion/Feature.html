@@ -1,0 +1,22 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<link href="../../../../concordion.css" rel="stylesheet" type="text/css" />
+<body>
+
+<h1>Feature</h1>
+
+<p>Cuando el usuario suma 1 + 1 el resultado es 3</p>
+
+<div class="calculadora">
+
+<h3>Calculadora</h3>
+
+<p>Cuando el usuario suma <b concordion:set="#oper1">1</b> y <b
+	concordion:set="#oper2">1</b> el resultado es <b
+	concordion:assertEquals="oneSumOneAreTwo(#oper1,#oper2)">3</b>
+</p>
+
+
+</div>
+
+</body>
+</html>
